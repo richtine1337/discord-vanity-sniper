@@ -2,21 +2,6 @@
 
 ---
 
-## 📢 Sorumluluk Reddi 
-- Bu uygulamanın yanlış kullanımından tamamen siz sorumlusunuz.
-- Uygulama **richtine1337** tarafından geliştirilmiştir.
-- Uygulama tamamen açık kaynaklıdır ve geliştirmeye açıktır.
-
-## 🛠 Kurulum Adımları
-
-1. **Node.js** yükleyin.  
-   [Node.js İndir](https://nodejs.org/en)
-
-2. **Sniper.js** içindeki **token** ve **password** değişkenlerini kendinizinki ile değişin.
-
-3. **start.bat** dosyasını çalıştırın.
-
----
 
 ## 📢 Disclaimer 
 - You are fully responsible for any misuse of this application.
@@ -31,6 +16,22 @@
 2. Replace the **token** and **password** variables in **Sniper.js** with your own.
 
 3. Run the **start.bat** file.
+
+---
+
+## 📢 Sorumluluk Reddi 
+- Bu uygulamanın yanlış kullanımından tamamen siz sorumlusunuz.
+- Uygulama **richtine1337** tarafından geliştirilmiştir.
+- Uygulama tamamen açık kaynaklıdır ve geliştirmeye açıktır.
+
+## 🛠 Kurulum Adımları
+
+1. **Node.js** yükleyin.  
+   [Node.js İndir](https://nodejs.org/en)
+
+2. **Sniper.js** içindeki **token** ve **password** değişkenlerini kendinizinki ile değişin.
+
+3. **start.bat** dosyasını çalıştırın.
 
 
 ---
