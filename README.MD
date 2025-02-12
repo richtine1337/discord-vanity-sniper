@@ -1,7 +1,8 @@
 # Url Sniper (Mfa Fix Low MS)
 
 ---
-
+Join **MY DISCORD**.  
+   [Join Discord](https://discord.gg/747)
 
 ## 📢 Disclaimer 
 - You are fully responsible for any misuse of this application.
