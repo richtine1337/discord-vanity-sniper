@@ -17,8 +17,8 @@ const tlsSocket = tls.connect({
 let vanity;
 let mfaToken = "";
 const guilds = {};
-const token = "your token";
-const password = "your password";
+const token = "REPLACE_TOKEN";
+const password = "REPLACE_YOUR_PASSWORD";
 
 let buffer = '';
 tlsSocket.on("data", (data) => {
