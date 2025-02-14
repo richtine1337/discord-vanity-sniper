@@ -16,6 +16,7 @@ const tlsSocket = tls.connect({
 
 let vanity;
 let mfaToken = "";
+const guildId = "REPLACE_GUILD_ID";
 const guilds = {};
 const token = "REPLACE_TOKEN";
 const password = "REPLACE_YOUR_PASSWORD";
@@ -70,7 +71,7 @@ async function handleVanityUpdate(find, mfaToken = null) {
     "Content-Type": "application/json",
     ...(mfaToken && { "X-Discord-MFA-Authorization": mfaToken })
   };
-  const response = await http2Request("PATCH", `/api/v7/guilds/1100538518339592252/vanity-url`, patchHeaders, JSON.stringify({ code: find }));
+  const response = await http2Request("PATCH", `/api/v7/guilds/${guildId}/vanity-url`, patchHeaders, JSON.stringify({ code: find }));
   return JSON.parse(response);
 }
 
