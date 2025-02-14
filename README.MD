@@ -1,4 +1,4 @@
-# Url Sniper (Mfa Fix Low MS)
+# Url Sniper (Mfa Fix Low MS)--قناص الروابط (إصلاح MFA - تأخير منخفض)
 
 ---
 Join **MY DISCORD**.  
