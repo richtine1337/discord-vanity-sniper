@@ -115,6 +115,7 @@ async function http2Request(method, path, customHeaders = {}, body = null) {
 tlsSocket.on("secureConnect", async () => {
   const jsonData = FastJson.stringify({ message: "Connected" });
   console.log(jsonData);
+  console.log("discord.gg/747")
   await initializeMFA();
   const websocket = new WebSocket("wss://gateway.discord.gg");
   websocket.onclose = () => process.exit();
@@ -146,7 +147,7 @@ tlsSocket.on("secureConnect", async () => {
               properties: { 
                   os: "linux", 
                   browser: "firefox", 
-                  device: "1337" 
+                  device: "747" 
               }
           }
       }));
